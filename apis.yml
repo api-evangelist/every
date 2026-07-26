@@ -1,8 +1,25 @@
 aid: every
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/every.png
 name: Every
-description: 'Every is a company surfaced as a portfolio company of redpoint-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Every is an AI-native, all-in-one back-office and finance platform built for startups,
+  unifying incorporation, business banking and cards, treasury and cash management, global payroll,
+  HR and benefits, AI-assisted bookkeeping, and startup tax preparation (including R&D tax credits)
+  into a single system. It offers free Delaware C-corp formation, business checking with cashback
+  debit cards, treasury-bill and money-market investing, and bundled per-stage plans for new founders
+  through established startups. Backed by Redpoint Ventures. Every does not currently publish a public
+  developer API, SDKs, or developer documentation; this profile captures its identity, commercial, and
+  domain-security surface.'
 url: https://raw.githubusercontent.com/api-evangelist/every/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Banking
+- Payroll
+- HR
+- Bookkeeping
+- Accounting
+- Tax
+- Treasury
+- Incorporation
+- Startups
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/every-domain-security.yml
 - type: Website
   url: https://www.every.io/
+- type: Blog
+  url: https://www.every.io/blog
+- type: Support
+  url: https://every.help.usepylon.com/
+- type: Pricing
+  url: https://www.every.io/pricing
+- type: SignUp
+  url: https://www.every.io/get-started
+- type: Login
+  url: https://app.every.io/login
+- type: TermsOfService
+  url: https://www.every.io/legal/tos
+- type: PrivacyPolicy
+  url: https://www.every.io/legal/privacypolicy
+- type: GitHubOrganization
+  url: https://github.com/every-io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
