@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Every is a company surfaced as a portfolio company of redpoint-ventures and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+Every is an AI-native, all-in-one back-office and finance platform built for startups, unifying incorporation, business banking and cards, treasury and cash management, global payroll, HR and benefits, AI-assisted bookkeeping, and startup tax preparation (including R&D tax credits) into a single system. It offers free Delaware C-corp formation, business checking with cashback debit cards, treasury-bill and money-market investing, and bundled per-stage plans for new founders through established startups. Backed by Redpoint Ventures. Every does not currently publish a public developer API, SDKs, or developer documentation; this profile captures its identity, commercial, and domain-security surface.
 
-Backed by: redpoint-ventures — https://www.every.io/
+**Areas:** Company · Fintech · Banking · Payroll · Human Resources · Bookkeeping · Accounting · Tax · Treasury · Incorporation · Startups
+
+## Every on APIs.io
+
+Everything profiled for Every is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/every/](https://apis.io/providers/every/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Every Domain Security](https://apis.io/security/every/every-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.every.io/)
+- [Pricing](https://www.every.io/pricing)
+- [Sign up](https://www.every.io/get-started)
+- [Support](https://every.help.usepylon.com/)
+- [Blog](https://www.every.io/blog)
+- [Terms of service](https://www.every.io/legal/tos)
+- [Privacy policy](https://www.every.io/legal/privacypolicy)
+- [GitHub](https://github.com/every-io)
+
+## API Evangelist rating
+
+**Kin Score 14.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.0** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/every/](https://apis.io/providers/every/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Every: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/every/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
